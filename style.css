@@ -1,0 +1,123 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-image: url(/home/jtd/personal-finance-tracker/p3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: transparent;
+    padding: 30px;
+    box-shadow: 8px 8px 60px rgba(19, 18, 18, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: white;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+input,
+select,
+button {
+    margin: 10px 0;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 22px);
+    font-size: 16px;
+}
+
+button {
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-1px);
+}
+
+.summary-section {
+    margin-top: 30px;
+}
+
+#chartContainer {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    color: black;
+    padding: 12px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+@media (max-width: 600px) {
+
+    input,
+    select,
+    button {
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    h1,
+    h2 {
+        font-size: 24px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+}
